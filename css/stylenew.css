@@ -1,0 +1,212 @@
+a{
+	outline:0 !important;	
+}
+.navbar-default {
+	background-color: #C800CD;
+	font-size:16px;
+	border-radius:0;
+	margin-bottom:0;
+	border:0;	
+}
+.navbar-default .navbar-nav li a{
+	color:#fff;	
+	font-weight:400;
+}
+.navbar-default .navbar-nav li a:hover{
+	color:#1E1E1E;	
+}
+.navbar-default .navbar-nav li.active a{
+	background-color:transparent;
+	color:#1F81BF;		
+}
+.navbar-default .navbar-nav li.active a:hover{
+	background-color:#FFF;
+	color:#1E1E1E;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color: #1E1E1E;	
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover{
+    color: #1F81BF;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#064372;
+	opacity:0.9;
+	border:0;
+}
+.dropdown-menu > li > a{
+	font-weight:300!important;	
+}
+.navbar-default .navbar-nav .open .dropdown-menu li  a{
+	color:#fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #2A2A2A;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle{
+	border-color:#AFAFAF;	
+	border:2px solid #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2A2A2A;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #2A2A2A;
+	cursor:pointer;
+}
+.navbar-default .navbar-brand {
+	color:#fff;		
+}
+.navbar-default .navbar-brand:hover {
+ 	color:#2A2A2A;
+}
+.navbar-default .navbar-brand img{
+	max-width:80px;
+}
+
+
+.navbar-nav.navbar-center {
+	float:none;
+	text-align: center;
+}
+.navbar-nav.navbar-center > li {
+	display: inline-block;
+	float:none;
+}
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+
+#intro{
+	align-content: center;
+	z-index: auto;
+}
+.border{
+	background-color: #9056ED;
+    margin-right: 10px;
+	height: 65px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 7px 7px 7px 7px;
+	
+}
+
+.btn-medilab{
+	padding: 20px;
+	border: 2px;
+	border-radius: 5px;
+	background-color: #C800CD;
+	color:#FFFFFF;
+	margin-top: 15px;
+}
+
+#contact{
+	text-align: center;
+	
+}
+
+#sec-linkmenu{
+	text-align: center;
+	
+}
+.img-principal img{
+	padding-top: 10px;
+	
+}
+#intro{
+	background-image: url( ../img/2018-07-23-16-48-16.jpg);
+	background-size: 1350px;
+}
+
+a{
+	color: #FFFFFF;
+}
+
+/*Section contacto*/
+#sec-form .titulo{
+	text-align: center;
+
+}
+.btn-lila{
+	text-align: center;
+}
+/*Section Services*/
+#sec-services{
+	text-align: center
+}
+
+#sec-acerca .btn-centro0,.btn-centro2, .btn-centro3,.btn-centro4,.btn-centro5,.btn-centro6,.btn-centro7,.btn-centro8{
+	margin-left: 15px;
+	background-color:#C800CD;
+	color: #FFFFFF;
+	width: 100%;
+	bottom: 0;
+	padding: 15px 35px;
+	margin-top: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	
+}
+/*Footer Section*/
+
+footer{
+	background-color: #930781;
+	color: #FFFFFF;
+	padding: 20px 0;
+text-align: center;
+}
+footer h3{
+	color: white;
+	font-weight: 700;
+	font-size: 26px;
+}
+footer h3 span{
+	color: #93007B;
+}
+
+.redes{
+	margin: 45px 0;
+}
+.redes li{
+	display: inline-block;
+}
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: white;
+	text-decoration: none;
+}
+.redes a:hover{
+	background-color: #fff;
+	color: #C800CD;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color:#FFFFFF;
+	font-weight: 400;
+}
+@media (max-width: 768px) {
+	.navbar-nav.navbar-center {
+		text-align: left;
+	}
+    .navbar-nav.navbar-center > li {
+       display: block;
+    }
+}
+
+
